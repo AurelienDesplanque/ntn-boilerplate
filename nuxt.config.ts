@@ -11,8 +11,7 @@ export default defineNuxtConfig({
   postcss: {
     plugins: {
       tailwindcss: {},
-      autoprefixer: {},
-      src: '~/plugins/cms.ts', mode: 'client'
+      autoprefixer: {}
     },
   }
 })
