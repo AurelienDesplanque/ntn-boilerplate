@@ -1,5 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import {resolve} from "path";
+import { resolve } from "path";
 
 export default defineNuxtConfig({
   alias: {
@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
+      src: '~/plugins/cms.ts', mode: 'client'
     },
   }
 })
