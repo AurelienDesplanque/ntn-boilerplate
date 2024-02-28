@@ -1,22 +1,22 @@
 <script setup lang="ts">
-    const{$sayHello} = useNuxtApp();
-    
-    $sayHello("Guillaume");
+const { $sayHello } = useNuxtApp();
 
-    const {$hello} = useNuxtApp()
+$sayHello("Guillaume");
+
+const { $hello } = useNuxtApp()
 </script>
 
 <template>
     <div>
-        <h2>About, index vue</h2>
-          <img src="@/assets/img1.png"/>
-        <Alert/>
+        <h2>About, iiiindex vue</h2>
+        <img src="@/assets/img1.png" />
+        <Alert />
     </div>
 </template>
 
 <style scoped>
-    h2 {
-        margin-bottom: 20px;
-        font-size: 36px;
-    }
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 </style>
