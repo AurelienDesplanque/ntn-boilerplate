@@ -1,7 +1,6 @@
 <template>
-  <div class="wrapper">
-    <Header />
-    <nuxt />
-    <ColorModePicker />
-  </div>
+    <div class="DefaultLayout">
+        <p>Default layout</p>
+        <slot/>
+    </div>
 </template>
