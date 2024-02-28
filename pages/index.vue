@@ -8,7 +8,7 @@ const { $hello } = useNuxtApp()
 
 <template>
     <div>
-        <h2>heelo guys About, iiiindex vue</h2>
+        <h2>hezzzz guys About, iiiindex vue</h2>
         <img src="@/assets/img1.png" />
         <Alert />
     </div>
