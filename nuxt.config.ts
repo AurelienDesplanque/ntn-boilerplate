@@ -12,12 +12,12 @@ export default defineNuxtConfig({
     plugins: {
       tailwindcss: {},
       autoprefixer: {}
-    },
-    modules: [
-      '@nuxt/content'
-    ],
-    content: {
-      // Options
     }
+  },
+  modules: [
+    '@nuxt/content'
+  ],
+  content: {
+    // Options
   }
 })
