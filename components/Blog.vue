@@ -1,15 +1,13 @@
 
   
-<script>
-export default {
-    async asyncData({ $content }) {
-        console.log("je rr");
-        const posts = await $content("blog").fetch();
+<script setup>
+asyncData({ $content }) {
+    console.log("je rr");
+    const posts = await $content("blog").fetch();
 
-        return {
-            posts,
-        };
-    },
+    return {
+        posts,
+    };
 };
 </script>
 
