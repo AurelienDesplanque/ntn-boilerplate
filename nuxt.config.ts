@@ -16,8 +16,5 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxt/content'
-  ],
-  content: {
-    // Options
-  }
+  ]
 })
