@@ -8,7 +8,9 @@
   
 <script>
 export default {
+    console.log("je raaaar");
     async asyncData({ $content }) {
+        console.log("je rr");
         const posts = await $content("blog").fetch();
 
         return {
