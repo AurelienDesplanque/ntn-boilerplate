@@ -1,3 +1,13 @@
+
+  
+<script>
+export default {
+    async asyncData() {
+        console.log("je rr");
+    },
+};
+</script>
+
 <template>
     <div>
         <li v-for="post of posts" :key="post.slug">
@@ -5,16 +15,3 @@
         </li>
     </div>
 </template>
-  
-<script>
-export default {
-    async asyncData({ $content }) {
-        console.log("je rr");
-        const posts = await $content("blog").fetch();
-
-        return {
-            posts,
-        };
-    },
-};
-</script>
