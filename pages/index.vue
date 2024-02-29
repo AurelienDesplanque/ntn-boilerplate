@@ -3,7 +3,13 @@ const { $sayHello } = useNuxtApp();
 
 $sayHello("Guillaume");
 
-const { $hello } = useNuxtApp()
+const { $hello } = useNuxtApp();
+
+useHead({
+    script: [
+        { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" },
+    ],
+});
 </script>
 
 <template>
@@ -20,13 +26,3 @@ h2 {
     font-size: 36px;
 }
 </style>
-
-<script setup>
-  
-useHead({
-  script: [
-    { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" },
-  ],
-});
-
-</script>
