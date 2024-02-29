@@ -17,6 +17,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/content'
   ],
+  target: 'static',
   generate: {
     routes: function () {
       const fs = require('fs');
@@ -33,3 +34,4 @@ export default defineNuxtConfig({
     // Options
   }
 })
+
