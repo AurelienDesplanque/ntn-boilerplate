@@ -7,6 +7,7 @@ const { $hello } = useNuxtApp()
 </script>
 
 <template>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <div>
         <h2>About me, iiiindex vue</h2>
         <img src="@/assets/img1.png" />
