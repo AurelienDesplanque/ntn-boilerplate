@@ -13,6 +13,7 @@
 <script>
 export default {
     async asyncData({ $content }) {
+        console.log("RRR");
         const posts = await $content("blog").fetch();
         console.log(posts); // Vérifiez les données récupérées dans la console
 
